@@ -644,6 +644,9 @@ body.light-theme {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
   column-gap: .75rem;
   margin-bottom: 2rem;
 }
@@ -988,6 +991,12 @@ body.light-theme {
   .contact__form {
     width: 360px;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .work__filters {
+    padding-left: 10rem;
   }
 }
 
